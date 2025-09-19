@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Doodle Jump and Flappy Bird</title>
+  <style>
+    body { margin: 10; background: #8feeee; display: flex; justify-content: center; }
+    #game {
+      width: 400px;
+      height: 600px;
+      background: rgb(115, 237, 216);
+      position: relative;
+      border: 2px solid black;
+      overflow: hidden;
+    }
+    .player {
+      width: 30px;
+      height: 30px;
+      background: rgb(124, 124, 235);
+      position: absolute;
+      left: 185px;
+      bottom: 200px;
+      border-radius: 50%;
+    }
+    .platform {
+      width: 85px;
+      height: 15px;
+      background: green;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+
+  <script src="doodle.js">
+    </script>
+</html>
